@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+footer {
+    
+    color: purple;
+    color:linear-gradient(90deg purple,0% black ,100%)
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.portfolio-container{
+   min-height:100vh;
+   width:100%;
+   display:flex;
+}
+.navlist{
+    display:flex;
+    gap:3rem;
+    height:15vh;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    position:fixed;
+}
+.navlist li{
+    list-style:none;
+}
+.navlist li a{
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:1rem;
+    color:white;
+    border:.1rem solid purple;
+    padding:.6rem .6rem;
+    cursor:pointer;
+    transition:.5s ease;
+}
+.left-container,.right-container{
+    height:100vh;
+    display:flex;
+    align-items:center;
+}
+.left-container{
+    background-color: black;
+    width:70%;
+    padding-left:3rem;
+}
+.right-container{
+    background-color: purple;
+    width:30%
+}
+.icons .fa-brands{
+    color:white;
+    font-size:1.3rem;
+    cursor:pointer;
+    transition:.5s ease;
+}
+.icons{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:2rem;
+}
+.content{
+    color:white;
+    margin-left: 3rem;;
+}
+.content .intro {
+    font-size:1.5rem;
+    margin:1rem 0 1rem 0;
+}
+.content .intro span{
+    color:purple
+} 
+.content h1{
+    font-size:4rem;
+    color:purple;
+}
+.content .detail{
+    font-size:1.1rem;
+    color:white;
+    max-width:40rem;
+    margin:1rem 0 3rem 0;
+    line-height:1.8rem;
+}
+.foot{
+    color:white;
+}
+.navlist li a:hover{
+    background: transparent;
+    color:purple;
+}
+.icons .fa-brands:hover{
+    background: transparent;
+    color:purple;
+}
+.design .circle{
+    aspect-ratio: 1;
+    position:absolute;
+    border-radius:50%;
+    top:50%;
+    left:70%;
+    transform: translate(-50%,-50%);
+}
+.circle:nth-child(1){
+    background:linear-gradient(90deg, #ff00ff 0%, black 100%);
+    width:32rem;
+}
+.circle:nth-child(2){
+   width:24rem;
+   background-image:url("jyo.jpeg");
+   background-size:100%;
+   background-repeat:no-repeat;
+}
+.content .intro1 {
+    font-size:1.5rem;
+    margin:1rem 0 1rem 0;
+}
+.content .intro1 span{
+    color:purple
+} 
+.content h2{
+    font-size:4rem;
+    color:white;
+}
+.content .detail1{
+    font-size:1.1rem;
+    color:white;
+    max-width:40rem;
+    margin:1rem 0 3rem 0;
+    line-height:1.8rem;
+    
+}
+.rectangle {
+    width: 400px; 
+    height: 200px; 
+    background-image:url(wee.jpg);
+    background-size:100%;
+    position: absolute; 
+    top: 50%; 
+    left: 85%; 
+    transform: translate(-50%, -50%); 
+}
+.content .intro2 {
+    font-size:2rem;
+    margin:1rem 0 1rem 0;
+}
+.content .intro2 span{
+    color:purple
+} 
+
+.content .detail2{
+    font-size:1.1rem;
+    color:white;
+    max-width:20rem;
+    margin:1rem 0 2rem 0;
+    line-height:1.5rem;
+    
+}
+.rectangle1{
+    width: 400px; 
+    height: 200px; 
+    background-image:url(edu.jpeg);
+    background-size:100%;
+    position: absolute; 
+    top: 50%; 
+    left: 85%; 
+    transform: translate(-50%, -50%); 
+}
+ .content4 .intro3 {
+    font-size:2rem;
+    margin:1rem 0 1rem 0;
+    color:white;
+  
+}
+.content4 .intro3 span{
+    color:purple;
+} 
+.content4 {
+   margin:28rem;
+  
+} */
+.box{
+    width: 400px; 
+   
+    box-shadow:0 0 20px 0 purple;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    position:absolute;
+}
+form{
+    margin:20px;
+}
+.j1,.j2,.j3{
+    width:400px;
+    height:40px;
+    margin-top:20px;
+    padding-left:10px;
+    padding-right:10px;
+    border:1px solid #777;
+    border-radius:14px;
+    outline-color: purple;
+}
+.j3{
+    height:150px;
+    padding-top:10px;
+}
+.btn{
+    border-radius:20px;
+    color:white;
+    margin-top:18px;
+    padding:10px;
+    background-color:purple;
+    font-size:12px;
+    border:none;
+    cursor:pointer;
+
+}
+.btn:hover{
+    background-color:violet;
+}
+
